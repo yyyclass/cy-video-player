@@ -1,0 +1,8 @@
+# 编辑器
+.idea/
+
+# 依赖
+node_modules/
+
+# 去除打包
+dist/*

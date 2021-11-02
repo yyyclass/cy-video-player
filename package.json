@@ -1,0 +1,38 @@
+{
+  "name": "cy-video-player",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yyyclass/cy-video-player.git",
+  "author": "yuyu <1440771511@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx webpack-dev-server",
+    "build": "npx webpack-cli --mode=production"
+  },
+  "dependencies": {
+    "hls.js": "^1.0.12",
+    "style-loader": "^3.3.1",
+    "ts-node": "^10.3.0",
+    "tsc": "^2.0.3",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/compression-webpack-plugin": "^9.0.0",
+    "@types/copy-webpack-plugin": "^8.0.1",
+    "@types/css-minimizer-webpack-plugin": "^3.0.2",
+    "@types/mini-css-extract-plugin": "^2.4.0",
+    "@types/node": "^16.11.2",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-bundle-analyzer": "^4.4.1",
+    "@types/webpack-dev-server": "^4.3.1",
+    "cache-loader": "^4.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.4.0",
+    "mini-css-extract-plugin": "^2.4.3",
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.59.1",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
