@@ -9,7 +9,6 @@ import MiniCssExtractPlugin from "mini-css-extract-plugin"; // 负责生成css�
 import TerserPlugin from "terser-webpack-plugin"; // webpack自带压缩js
 import CssMinimizerPlugin from "css-minimizer-webpack-plugin"; // 压缩css
 
-
 const config: webpack.Configuration = {
     mode: 'development',
     entry: './src/index.ts',
@@ -25,7 +24,8 @@ const config: webpack.Configuration = {
         rules: [
             {
                 test: /\.ts$/,
-                use: ['ts-loader']
+                use: ['ts-loader'],
+                exclude: /node_modules/,
             },
             {
                 test: /.(css|sass|scss)$/,

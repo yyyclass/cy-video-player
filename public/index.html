@@ -3,8 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>cy-video-player</title>
+    <style>
+        :root{
+            --cyvp-color-main: red;
+        }
+
+        .cyvp-container{
+            background: var(--cyvp-color-main);
+        }
+    </style>
 </head>
 <body>
-<video id="cy-video-player"></video>
+<div class="test">
+    <video id="cy-video-player" width="800" height="400" controls style="position:relative">
+
+    </video>
+</div>
 </body>
 </html>
