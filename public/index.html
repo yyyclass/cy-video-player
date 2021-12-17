@@ -15,8 +15,9 @@
 </head>
 <body>
 <div class="test">
-    <video id="cy-video-player" width="800" height="400" controls style="position:relative">
-
+    <video id="cy-video-player" crossorigin="anonymous" width="800" height="400" controls autoplay>
+        <track kind="subtitles" srclang="zh-CN" src="/assets/test.vtt" label="中文" default>
+        <track kind="subtitles" srclang="en-US" src="/assets/test.en.vtt" label="English">
     </video>
 </div>
 </body>

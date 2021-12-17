@@ -1,7 +1,7 @@
 /**
  * 播放器控件接口生成器
  */
-export interface IBuilderControls {
+export default interface IBuilderControls {
     /**
      * 播放/暂停按钮
      */

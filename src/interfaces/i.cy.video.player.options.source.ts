@@ -1,4 +1,4 @@
-export interface ICyVideoPlayerOptionsSource {
+export default interface ICyVideoPlayerOptionsSource {
     /**
      * 要播放的视频的 URL
      */

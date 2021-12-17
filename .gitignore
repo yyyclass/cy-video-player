@@ -6,3 +6,5 @@ node_modules/
 
 # 去除打包
 dist/*
+
+**/dist

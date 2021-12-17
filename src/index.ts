@@ -1,28 +1,16 @@
 import CyVideoPlayer from "./cy.video.player";
 
+if(!document){
+    throw new Error("所发生的")
+}
+
 // const src = 'https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8';
 const src = "/assets/test.m3u8";
-
-const video = new CyVideoPlayer("cy-video-player", {
+const dom = document.getElementById("cy-video-player");
+const video = new CyVideoPlayer(dom, {
     src:src,
-    tracks: [
-        {
-            default:true,
-            kind: "subtitles",
-            srclang: "zh-CN",
-            src: '/assets/test.vtt',
-            label: '中文'
-        },
-        {
-            kind: "subtitles",
-            srclang: "en-US",
-            src: '/assets/test.en.vtt',
-            label: 'English'
-        }
-    ]
+    debug: true,
 });
-
-
 
 
 

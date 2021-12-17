@@ -34,4 +34,3 @@ const webpackProductionConfig: webpack.Configuration = {
 };
 
 export default Object.assign(webpackBaseConfig, webpackProductionConfig);
-// export default webpackProductionConfig;

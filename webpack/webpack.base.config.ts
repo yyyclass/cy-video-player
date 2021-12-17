@@ -10,7 +10,7 @@ import CssMinimizerPlugin from "css-minimizer-webpack-plugin"; // 压缩css
 const webpackBaseConfig: webpack.Configuration = {
     entry: './src/index.ts',
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname,'..', 'dist'),
         filename: '[name].[fullhash:5].js',
     },
     module: {

@@ -1,4 +1,4 @@
-export interface ICyVideoPlayerOptionsTrack {
+export default interface ICyVideoPlayerOptionsTrack {
     /**
      * 规定该轨道是默认的，假如没有选择任何轨道。
      */
